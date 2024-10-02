@@ -1,6 +1,5 @@
 import { babel } from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
-import nodent from 'rollup-plugin-nodent';
 import license from 'rollup-plugin-license';
 import copy from 'rollup-plugin-copy';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
@@ -29,7 +28,7 @@ const plugins = [
     },
   }),
   nodeResolve(),
-  nodent({ noRuntime: true, promises: true }),
+  // nodent({ noRuntime: true, promises: true }),
   commonjs(),
   babel({
     babelHelpers: 'bundled',
