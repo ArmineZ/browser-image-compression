@@ -51,7 +51,7 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-replace": "^5.0.2",
     "babel-plugin-istanbul": "^6.0.0",
-    "canvas": "2.6.1",
+    "canvas": "2.11.2",
     "chai": "^4.1.0",
     "chai-as-promised": "^7.1.1",
     "cross-env": "^7.0.2",
